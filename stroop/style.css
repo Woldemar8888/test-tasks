@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 700px;
+    margin: 50px auto;
+}
+
+.stroop-effect{
+    border: 1px solid black;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    background: #D6E9F3;
+    line-height: 2;
+}
+
+@media (max-width: 720px) { 
+    .container{
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .stroop-effect{
+        font-size:  4vw;
+    }
+}
+
+@media (max-width: 400px){
+    .container{
+        padding: 5px;
+    }
+}
